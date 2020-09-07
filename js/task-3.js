@@ -11,9 +11,9 @@ class Storage {
     return this.items
   }
 
-  removeItem(newItem) {
+  removeItem(itemToRemove) {
     for (let i = 0; i < this.items.length; i += 1)
-      if (newItem === this.items[i]) {
+      if (itemToRemove === this.items[i]) {
         this.items.splice(i, 1)
       }
   }

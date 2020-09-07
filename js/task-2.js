@@ -11,7 +11,6 @@ class User {
     )
   }
 }
-
 const mango = new User({
   name: 'Mango',
   age: 2,
